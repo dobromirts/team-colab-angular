@@ -87,6 +87,11 @@
 .image {
   height: 100%;
 }
+.text {
+  width: 162px;
+  height: max-content;
+  min-width: min-content;
+}
 .actions-content {
   min-width: 50px;
   min-height: 40px;
@@ -95,6 +100,11 @@
   margin: 0 0 16px;
   height: max-content;
   min-width: min-content;
+}
+.select {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
 }
 .button {
   z-index: 1;
